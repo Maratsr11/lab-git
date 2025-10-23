@@ -5,8 +5,8 @@
 
 void readFromFile(std::vector<std::string>& lines) {
     // Временное заполнение для отладки
-    lines.push_back("Test line 1");
-    lines.push_back("Test line 2");
+   // lines.push_back("Test line 1");
+   // lines.push_back("Test line 2");
 }
 void printLines(const std::vector<std::string>& lines) {
     for (const auto& line : lines) {
