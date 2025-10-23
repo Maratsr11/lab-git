@@ -15,10 +15,10 @@ void readFromFile(std::vector<std::string>& lines) {
     }
     file.close();
     // Отладочный вывод
-    std::cout << "Прочитано строк: " << lines.size() << std::endl;
-    for (const auto& l : lines) {
-        std::cout << l << std::endl;
-    }
+    //std::cout << "Прочитано строк: " << lines.size() << std::endl;
+    //for (const auto& l : lines) {
+       // std::cout << l << std::endl;
+    //}
 }
 void printLines(const std::vector<std::string>& lines) {}
 void writeToFile(const std::vector<std::string>& lines) {}
